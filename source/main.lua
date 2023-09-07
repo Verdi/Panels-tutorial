@@ -13,8 +13,10 @@ Panels.credits = gameCredits
 
 -- COMIC DATA:
 -- add data to the table in this file to create your comic
-import "myComicData.lua"
-comicData = myComicData
+import "comicData/s01.lua"
+comicData = {
+	s01
+}
 
 
 
